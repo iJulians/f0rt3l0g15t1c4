@@ -1,0 +1,137 @@
+/* RESET =================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* VARIAVEIS ===========================================*/
+  html {
+    --color-base: #F68F2C;
+    --color-title: #01321A;
+    --color-line: #769D46;
+    --color-button: #01321A;
+    --color-alt:#769D46;
+  }
+  
+  body {
+    background: var(--color-base);
+  }
+  
+  body.secondcolor {
+    --color-base: #277299;
+    --color-title: #031725;
+    --color-line: #01321A;
+    --color-button: #031725;
+    --color-alt:#01321A;
+  }
+  
+  
+  /*Base =================================================*/
+  
+  
+  /*Header ===============================================*/
+  .header {
+    display: inline;
+    font-size: 30px;
+  }
+  
+  .divider {
+    height: 0.11875rem;
+    background: var(--color-line);
+  }
+  
+  .title {
+    color: var(--color-title);
+    font-size: 1.5rem;
+  }
+  
+  .title span {
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  /* User information ===================================*/
+  
+  .user  {
+    color: white;
+  }
+  
+  .user img{
+    display: flex;
+    margin: 3.75rem auto;
+    width: auto;
+    height: auto;
+  
+    padding: 4px;
+  }
+  
+  .user h1 {
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+  }
+  
+  .user p {
+    margin: 2.5rem;
+    font-size: 1.3rem;
+    font: 400 1.675rem "Italiana", sans-serif;
+  }
+  
+  /*Contact ============================================*/
+  
+  ul {
+    margin: 3rem;
+    font: 800 2rem "Baloo 2" , sans-serif;
+  }
+
+  ul li {
+    padding: 0.5rem;
+
+  }
+
+  ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-button);
+    color: white;
+    height: 3.5rem;
+
+    border-radius: 1.875rem;
+    
+
+    transition: 400ms;
+   
+  }
+  
+  ul li a:hover {
+    background: var(--color-alt);
+    transform: translateY(-10%);
+    text-transform: uppercase;
+  }
+  
+  /*Footer ============================================*/
+  
+  footer {
+    display: inline;
+    text-align: center;
+    
+  }
+  
+  footer a {
+    color: #01321A;
+    opacity: 20%;
+    margin-bottom: 3rem;
+    font: 400 .75rem "Italiana", sans-serif;
+  }
